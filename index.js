@@ -67,4 +67,4 @@ process.on('uncaughtExceptionMonitor', (err, origin) => {
 });
 
 // Discord Client login
-client.login(config.Token);
+client.login(process.env.token);
